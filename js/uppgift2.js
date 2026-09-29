@@ -1,3 +1,4 @@
+// Uppgift 2. Av Moa Karlsson 2026
 "use strict";
 
 let productPrice = 200;
