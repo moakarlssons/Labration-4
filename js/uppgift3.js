@@ -2,3 +2,7 @@
 "Use strict";
 
 let age = 7;
+
+if(age<=18){
+    console.log("Barn")
+}
