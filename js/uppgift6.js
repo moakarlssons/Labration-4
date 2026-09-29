@@ -2,5 +2,7 @@
 "use strict"
 
 function calculateArea(width, height){   
-    console.log(width * height)
+    return width * height;
 }
+
+console.log("Arean är " + calculateArea(5, 10));
