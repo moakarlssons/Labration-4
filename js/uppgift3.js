@@ -3,12 +3,12 @@
 
 let age = 7;
 
-if(age<=18){
+if(age <=18) {
     console.log("Barn");
-}
-else if(>18){
+} 
+else if(age < 65) {
  console.log("Vuxen");
-}
-else(>65){
+} 
+   else {
     console.log("Pensionär");
 }
