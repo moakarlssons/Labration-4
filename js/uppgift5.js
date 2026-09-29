@@ -2,3 +2,15 @@
 "use strict"
 
 let foods = ["Pizza", "Köttfärssås", "Wok", "Hamburgare", "Wallenbergare"];
+
+console.log(foods);
+
+console.log(foods[0]);
+
+console.log(foods[4])
+
+foods.push("Pannkakor")
+
+foods.shift([0])
+
+console.log(foods)
