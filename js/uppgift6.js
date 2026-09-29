@@ -6,3 +6,5 @@ function calculateArea(width, height){
 }
 
 console.log("Arean är " + calculateArea(5, 10));
+console.log("Arean är " + calculateArea(7, 3));
+console.log("Arean är " + calculateArea(10, 20));
