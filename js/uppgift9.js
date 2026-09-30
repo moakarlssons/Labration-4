@@ -18,3 +18,13 @@ let people = [
         city: "Hägersten"
     }
 ];
+
+   
+       
+
+for (let i = 0; i < people.length; i++) {
+    console.log(`Namn: ${people[i].name} Ålder: ${people[i].age} Stad: ${people[i].city}`);
+
+};
+
+
