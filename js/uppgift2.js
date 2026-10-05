@@ -7,5 +7,9 @@ let productVat = 1.25;
 
 console.log(`Pris: ${productPrice} kr`);
 console.log(`Antal: ${productAmount}`);
-console.log("Totalt: " + productPrice *productAmount + " kr");
-console.log("Totalt inklusive moms: " + productPrice*productAmount*productVat + " kr");
+
+let totalPrice = productPrice * productAmount;
+console.log("Totalt: " + totalPrice + " kr");
+
+let totalPriceVat = productPrice * productAmount * productVat;
+console.log("Totalt inklusive moms: " + totalPriceVat + " kr");
