@@ -11,6 +11,6 @@ console.log(foods[4])
 
 foods.push("Pannkakor")
 
-foods.shift([0])
+foods.shift()
 
 console.log(foods)
