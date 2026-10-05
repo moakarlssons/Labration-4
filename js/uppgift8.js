@@ -5,15 +5,14 @@
 const book = {
     title: "Blackout",
     author: "Sofie Sarenbrant",
-    year: 2026,
-
-    
-    bookinfo: function () {
-        console.log(`Titel: ${this.title}`);
-        console.log(`Författare: ${this.author}`);
-        console.log(`År: ${this.year}`);
-    }
+    year: 2026
 };
 
-book.bookinfo();
+function printBook(book){
+     console.log(`Titel: ${book.title}`);
+        console.log(`Författare: ${book.author}`);
+        console.log(`År: ${book.year}`);
+}
+
+printBook(book);
 
